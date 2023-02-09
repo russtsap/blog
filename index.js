@@ -11,7 +11,8 @@ import { handleValidationErrors, checkAuth } from './utils/index.js';
 
 import { UserController, PostController } from './controllers/index.js';
 
-
+//comments 
+console.log('bb')
 console.log('cc');
 mongoose
   .connect(process.env.MONGODB_URI)
